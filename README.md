@@ -1,3 +1,96 @@
+# Proyecto de Desarrollo Web Full Stack Node - Trabajo Integrador de Práctica Profesional
+
+## Introducción
+
+Este proyecto es un desafío de codificación diseñado para simular un entorno de desarrollo de la vida real, ofreciendo a los participantes la oportunidad de demostrar sus habilidades en el desarrollo de una aplicación web completa. La aplicación consta de un frontend que consume datos de una API, ambos desarrollados desde cero. El frontend muestra información de aspirantes a trabajos, mientras que la API proporciona estos datos desde una base de datos MySQL.
+
+## Objetivo
+
+Desarrollar una aplicación web para una empresa multinacional de Recruiting de Recursos Humanos que permite a los usuarios ver un catálogo de aspirantes a trabajos. Este proyecto abarca la creación de una base de datos, el desarrollo de una API REST utilizando Node.js y Express, y el diseño y desarrollo de un frontend con React y Bootstrap.
+
+## Tecnologías Utilizadas
+
+- **Frontend**: React, Bootstrap/Tailwind, Axios/Fetch para llamadas a la API.
+- **Backend (API REST)**: Node.js, Express, Sequelize para la conexión con la base de datos MySQL.
+- **Base de Datos**: MySQL.
+
+## Estructura del Proyecto
+
+El proyecto está dividido en dos partes principales:
+
+1. **Frontend**: Contiene el código fuente del cliente de la aplicación web, desarrollado con React.
+2. **Backend**: Incluye la API REST desarrollada con Node.js y Express, además de la configuración de la base de datos MySQL.
+
+### Directorio Frontend
+
+frontend/
+├── node_modules/
+├── src/
+│ ├── components/
+│ ├── hooks/
+│ ├── App.js
+│ └── index.js
+├── .eslintrc.json
+├── package.json
+└── vite.config.js
+
+
+### Directorio Backend
+
+backend/
+├── node_modules/
+├── src/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ └── app.js
+├── package.json
+
+
+## Instalación y Ejecución
+
+### Requisitos Previos
+
+- Node.js instalado.
+- Gestor de paquetes NPM.
+- MySQL instalado y configurado.
+
+### Instrucciones
+
+1. Clonar el repositorio:
+
+git clone <URL-del-repositorio>
+
+2. Instalar dependencias para el frontend:
+```
+npm install
+cd frontend
+```
+
+3. Instalar dependencias para el backend:
+```
+cd ../backend
+npm install
+```
+4. Crear y configurar el archivo `.env` en el backend con las credenciales de la base de datos.
+
+5. Iniciar el servidor de desarrollo para el frontend:
+
+```
+npm run dev
+```
+
+6. Iniciar el servidor de desarrollo para el backend:
+
+```
+npm run dev
+```
+
+
+## Funcionalidades
+
+Describir aquí las principales funcionalidades de la aplicación, incluyendo cómo interactúan el frontend y el backend.
+
 Descripción del Proyecto
 Este proyecto es parte de un desafío de codificación enfocado en el desarrollo web full stack, diseñado para simular un entorno de desarrollo profesional y ofrecer a los participantes una oportunidad valiosa de demostrar sus habilidades en la creación de aplicaciones web completas. El objetivo principal es desarrollar una aplicación web para una empresa multinacional de Recruiting de Recursos Humanos, que busca ofrecer a su público una plataforma moderna y eficiente para visualizar un catálogo de aspirantes a puestos de trabajo altamente demandados en la industria.
 
